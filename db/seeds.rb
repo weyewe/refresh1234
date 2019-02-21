@@ -14,3 +14,11 @@
 
 # /etc/postgresql/9.5/main/pg_hba.conf
 # https://community.c9.io/t/can-we-upgrade-to-postgres-9-4/3897/4
+
+# sudo service postgresql start
+# $ echo $USER
+# $ sudo su - postgres;
+# $ createuser ubuntu -dslP
+# $ psql
+# # create database myapp_development owner=ubuntu;
+
